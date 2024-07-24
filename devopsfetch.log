@@ -1,0 +1,59 @@
+=== devopsfetch - Tue Jul 23 00:58:29 WAT 2024 ===
+Active Ports:
+State  Recv-Q  Send-Q  Local   Address:Port   Peer          Address:Port
+Netid  State   Recv-Q  Send-Q  Local          Address:Port  Peer          Address:Port  Process
+udp    UNCONN  0       0       127.0.0.1:323  0.0.0.0:*
+udp    UNCONN  0       0       [::1]:323      [::]:*
+tcp    LISTEN  0       5       0.0.0.0:80     0.0.0.0:*
+
+User Logins:
+
+Nginx Configurations:
+
+Docker Images:
+
+Docker Containers:
+==============================
+=== devopsfetch - Tue Jul 23 01:37:55 WAT 2024 ===
+Active Ports:
+Netid  State   Recv-Q  Send-Q   Local Address:Port   Peer Address:Port Process  
+udp    UNCONN  0       0            127.0.0.1:323         0.0.0.0:*             
+udp    UNCONN  0       0                [::1]:323            [::]:*             
+tcp    LISTEN  0       5              0.0.0.0:80          0.0.0.0:*             
+
+User Logins:
+
+Nginx Domains and Ports:
+Port	Domain
+----	------
+
+Docker Images:
+
+Docker Containers:
+==============================
+=== devopsfetch - Tue Jul 23 01:38:05 WAT 2024 ===
+Active Ports:
+Netid  State   Recv-Q  Send-Q   Local Address:Port   Peer Address:Port Process  
+udp    UNCONN  0       0            127.0.0.1:323         0.0.0.0:*             
+udp    UNCONN  0       0                [::1]:323            [::]:*             
+tcp    LISTEN  0       5              0.0.0.0:80          0.0.0.0:*             
+
+User Logins:
+
+Nginx Domains and Ports:
+Port	Domain
+----	------
+localhost:143;	N/A
+[::]:80	N/A
+[::]:80;	example.com;
+80;	localhost;
+
+Docker Images:
+REPOSITORY    TAG       IMAGE ID       CREATED       SIZE
+my-node-app   latest    320fb73114d6   2 days ago    1.09GB
+node          18        687dbc8c3350   13 days ago   1.09GB
+
+Docker Containers:
+CONTAINER ID   IMAGE         COMMAND                  CREATED      STATUS                     PORTS                                       NAMES
+831720ab60a0   my-node-app   "docker-entrypoint.s…"   2 days ago   Exited (255) 3 hours ago   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp   my-running-app
+==============================
